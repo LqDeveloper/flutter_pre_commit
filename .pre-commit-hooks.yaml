@@ -1,0 +1,20 @@
+- id: flutter-analyze
+  name: Flutter Code Analyze
+  entry: run_analyze
+  language: script
+  files: \.dart$
+  require_serial: true
+
+- id: dart-format
+  name: Dart Code format
+  entry: run_format
+  language: script
+  files: \.dart$
+  require_serial: true
+
+- id: dart-fix
+  name: Dart Code Fix
+  entry: run_fix
+  language: script
+  files: \.dart$
+  require_serial: true
